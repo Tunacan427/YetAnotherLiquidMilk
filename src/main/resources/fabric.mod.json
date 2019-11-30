@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "yalm",
+  "version": "1.0.0",
+
+  "name": "Yet Another Liquid Milk",
+  "description": "YALM adds milk as a liquid. That's it.",
+  "authors": [
+    "TunacanGamer"
+  ],
+  "contact": {
+    "sources": "https://github.com/Tunacan427/YetAnotherLiquidMilk"
+  },
+
+  "license": "MIT",
+  "icon": "assets/yalm/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tunacan.yalm.YALM"
+    ],
+	"client": [
+	  "tunacan.yalm.YALMClient"
+	]
+  },
+  "mixins": [
+    "yalm.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*",
+    "minecraft": "1.14.x"
+  }
+}

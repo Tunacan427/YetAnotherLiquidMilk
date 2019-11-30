@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "tunacan.yalm.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+	"CowEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
